@@ -10,5 +10,16 @@ int main() {
     list.push_back(2);
     list.push_back(3);
     std::cout << list << std::endl;
+
+    //list.pop_back();
+    //std::cout << list << std::endl;
+    for (size_t i = 0; i < 8; i++)
+    {
+        
+        list.push_back(i);
+
+    }
+    std::cout << list << std::endl;
+    
     return 0;
 }
